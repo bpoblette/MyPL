@@ -1,0 +1,9 @@
+
+
+
+#
+# should print: 1, 1, 2, 5, 14, 42, 132
+#
+void main() {
+    print(concat("hello", concat(to_string(4), "world")))
+}

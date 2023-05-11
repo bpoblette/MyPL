@@ -1,0 +1,859 @@
+
+
+         FRAME.........: main
+         PC............: 0
+         INSTR.........: PUSH(0)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 1
+         INSTR.........: STORE(0)
+         NEXT OPERAND..: 0
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 2
+         INSTR.........: PUSH(1)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 3
+         INSTR.........: STORE(1)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 4
+         INSTR.........: LOAD(1)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 5
+         INSTR.........: PUSH(5)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 6
+         INSTR.........: CMPLE()
+         NEXT OPERAND..: 5
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 7
+         INSTR.........: JMPF(31)
+         NEXT OPERAND..: true
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 8
+         INSTR.........: PUSH(1)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 9
+         INSTR.........: STORE(2)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 10
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 11
+         INSTR.........: PUSH(4)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 12
+         INSTR.........: CMPLE()
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 13
+         INSTR.........: JMPF(25)
+         NEXT OPERAND..: true
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 14
+         INSTR.........: LOAD(0)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 15
+         INSTR.........: LOAD(1)
+         NEXT OPERAND..: 0
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 16
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 17
+         INSTR.........: MUL()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 18
+         INSTR.........: ADD()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 19
+         INSTR.........: STORE(0)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 20
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 21
+         INSTR.........: PUSH(1)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 22
+         INSTR.........: ADD()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 23
+         INSTR.........: STORE(2)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 24
+         INSTR.........: JMP(10)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 10
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 11
+         INSTR.........: PUSH(4)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 12
+         INSTR.........: CMPLE()
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 13
+         INSTR.........: JMPF(25)
+         NEXT OPERAND..: true
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 14
+         INSTR.........: LOAD(0)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 15
+         INSTR.........: LOAD(1)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 16
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: 0
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 17
+         INSTR.........: MUL()
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 18
+         INSTR.........: ADD()
+         NEXT OPERAND..: 0
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 19
+         INSTR.........: STORE(0)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 20
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 21
+         INSTR.........: PUSH(1)
+         NEXT OPERAND..: 0
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 22
+         INSTR.........: ADD()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 23
+         INSTR.........: STORE(2)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 24
+         INSTR.........: JMP(10)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 10
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 11
+         INSTR.........: PUSH(4)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 12
+         INSTR.........: CMPLE()
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 13
+         INSTR.........: JMPF(25)
+         NEXT OPERAND..: true
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 14
+         INSTR.........: LOAD(0)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 15
+         INSTR.........: LOAD(1)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 16
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 17
+         INSTR.........: MUL()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 18
+         INSTR.........: ADD()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 19
+         INSTR.........: STORE(0)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 20
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 21
+         INSTR.........: PUSH(1)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 22
+         INSTR.........: ADD()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 23
+         INSTR.........: STORE(2)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 24
+         INSTR.........: JMP(10)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 10
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 11
+         INSTR.........: PUSH(4)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 12
+         INSTR.........: CMPLE()
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 13
+         INSTR.........: JMPF(25)
+         NEXT OPERAND..: true
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 14
+         INSTR.........: LOAD(0)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 15
+         INSTR.........: LOAD(1)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 16
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 17
+         INSTR.........: MUL()
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 18
+         INSTR.........: ADD()
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 19
+         INSTR.........: STORE(0)
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 20
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 21
+         INSTR.........: PUSH(1)
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 22
+         INSTR.........: ADD()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 23
+         INSTR.........: STORE(2)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 24
+         INSTR.........: JMP(10)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 10
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 11
+         INSTR.........: PUSH(4)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 12
+         INSTR.........: CMPLE()
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 13
+         INSTR.........: JMPF(25)
+         NEXT OPERAND..: true
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 14
+         INSTR.........: LOAD(0)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 15
+         INSTR.........: LOAD(1)
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 16
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 17
+         INSTR.........: MUL()
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 18
+         INSTR.........: ADD()
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 19
+         INSTR.........: STORE(0)
+         NEXT OPERAND..: 8
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 20
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 21
+         INSTR.........: PUSH(1)
+         NEXT OPERAND..: 2
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 22
+         INSTR.........: ADD()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 23
+         INSTR.........: STORE(2)
+         NEXT OPERAND..: 3
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 24
+         INSTR.........: JMP(10)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 10
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 11
+         INSTR.........: PUSH(4)
+         NEXT OPERAND..: 3
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 12
+         INSTR.........: CMPLE()
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 13
+         INSTR.........: JMPF(25)
+         NEXT OPERAND..: true
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 14
+         INSTR.........: LOAD(0)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 15
+         INSTR.........: LOAD(1)
+         NEXT OPERAND..: 8
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 16
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 17
+         INSTR.........: MUL()
+         NEXT OPERAND..: 3
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 18
+         INSTR.........: ADD()
+         NEXT OPERAND..: 12
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 19
+         INSTR.........: STORE(0)
+         NEXT OPERAND..: 20
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 20
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 21
+         INSTR.........: PUSH(1)
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 22
+         INSTR.........: ADD()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 23
+         INSTR.........: STORE(2)
+         NEXT OPERAND..: 5
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 24
+         INSTR.........: JMP(10)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 10
+         INSTR.........: LOAD(2)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 11
+         INSTR.........: PUSH(4)
+         NEXT OPERAND..: 5
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 12
+         INSTR.........: CMPLE()
+         NEXT OPERAND..: 4
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 13
+         INSTR.........: JMPF(25)
+         NEXT OPERAND..: false
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 25
+         INSTR.........: NOP()
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 26
+         INSTR.........: LOAD(1)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 27
+         INSTR.........: PUSH(1)
+         NEXT OPERAND..: 8
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 28
+         INSTR.........: ADD()
+         NEXT OPERAND..: 1
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 29
+         INSTR.........: STORE(1)
+         NEXT OPERAND..: 9
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 30
+         INSTR.........: JMP(4)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 4
+         INSTR.........: LOAD(1)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 5
+         INSTR.........: PUSH(5)
+         NEXT OPERAND..: 9
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 6
+         INSTR.........: CMPLE()
+         NEXT OPERAND..: 5
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 7
+         INSTR.........: JMPF(31)
+         NEXT OPERAND..: false
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 31
+         INSTR.........: NOP()
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 32
+         INSTR.........: LOAD(0)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 33
+         INSTR.........: WRITE()
+         NEXT OPERAND..: 20
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 34
+         INSTR.........: PUSH(null)
+         NEXT OPERAND..: empty
+         NEXT FUNCTION.: main
+
+
+         FRAME.........: main
+         PC............: 35
+         INSTR.........: RET()
+         NEXT OPERAND..: null
+         NEXT FUNCTION.: main
+/home/bpoblette/hw7-bpoblette-1/tests/code_generator_tests.cpp:589: Failure
+Expected equality of these values:
+  "150"
+  out.str()
+    Which is: "20"
+[  FAILED  ] BasicCodeGenTest.NestedFor (10 ms)
+[ RUN      ] BasicCodeGenTest.ForOuterShadowing
+[       OK ] BasicCodeGenTest.ForOuterShadowing (0 ms)
+[ RUN      ] BasicCodeGenTest.ForInnerShadowing
+[       OK ] BasicCodeGenTest.ForInnerShadowing (1 ms)
+[ RUN      ] BasicCodeGenTest.BasicIf
+[       OK ] BasicCodeGenTest.BasicIf (0 ms)
+[ RUN      ] BasicCodeGenTest.ConsecutiveIfs
+[       OK ] BasicCodeGenTest.ConsecutiveIfs (0 ms)
+[ RUN      ] BasicCodeGenTest.BasicElseIf
+[       OK ] BasicCodeGenTest.BasicElseIf (0 ms)
+[ RUN      ] BasicCodeGenTest.NoArgCall
+[       OK ] BasicCodeGenTest.NoArgCall (0 ms)
+[ RUN      ] BasicCodeGenTest.OneArgCall
+[       OK ] BasicCodeGenTest.OneArgCall (0 ms)
+[ RUN      ] BasicCodeGenTest.TwoArgCall
+[       OK ] BasicCodeGenTest.TwoArgCall (0 ms)
+[ RUN      ] BasicCodeGenTest.ThreeArgCall
+[       OK ] BasicCodeGenTest.ThreeArgCall (0 ms)
+[ RUN      ] BasicCodeGenTest.MultilevelCall
+[       OK ] BasicCodeGenTest.MultilevelCall (0 ms)
