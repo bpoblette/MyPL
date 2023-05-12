@@ -1,0 +1,16 @@
+
+#----------------------------------------------------------------------
+# useless function
+#----------------------------------------------------------------------
+int useles(){
+    print("This function doesnt do anything")
+}
+int main(){
+    print("Hello \n")
+    int x = 0
+    int y = 3
+    print("World \n")
+    if(x < y){
+        print("The useles function should not produce stack traces \n")
+    }
+}

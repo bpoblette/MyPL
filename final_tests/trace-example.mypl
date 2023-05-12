@@ -1,0 +1,28 @@
+
+void main(){
+    int x = 0
+    int y = 1
+    if(x < y){
+        print("This should generate if instructions")
+    }
+    else { 
+        if(x == y){
+        print("This will not have instructions")
+        }
+    }
+
+
+    if(x == y){
+        print("This will not have instructions")
+    }
+    else {
+        if(x < y){
+        print("This should generate else if instructions")
+        }
+    }
+
+    if(1 == 2){
+        print("This will have no instructions")
+    }
+
+}
